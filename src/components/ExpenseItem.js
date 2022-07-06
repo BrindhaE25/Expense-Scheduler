@@ -12,7 +12,7 @@ import Card from './Card';
                  <h2>{props.expense.title}</h2>
              </div>
              <div className="expense-item__price">
-                 <h2>{props.expense.price}</h2>
+                 <h2>${props.expense.price}</h2>
              </div>
          </Card>
      )
