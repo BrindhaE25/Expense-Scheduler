@@ -6,6 +6,7 @@ import Card from './Card';
     
       
      return (
+         <li>
          <Card className="expense-item">
              <ExpenseDate date={props.expense.date}/>
              <div className="expense-item__description">
@@ -15,6 +16,7 @@ import Card from './Card';
                  <h2>${props.expense.price}</h2>
              </div>
          </Card>
+         </li>
      )
  }
 

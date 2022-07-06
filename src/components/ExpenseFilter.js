@@ -4,7 +4,7 @@ import React from 'react';
 
 import './ExpenseFilter.css';
 
-const ExpensesFilter = (props) => {
+const ExpenseFilter = (props) => {
     const saveSelectedYear = event => {
         props.onChangeYear(event.target.value);
     }
@@ -23,4 +23,4 @@ const ExpensesFilter = (props) => {
   );
 };
 
-export default ExpensesFilter;
+export default ExpenseFilter;
